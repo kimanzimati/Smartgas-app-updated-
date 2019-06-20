@@ -1,0 +1,7 @@
+{
+  "name": "smartgas",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

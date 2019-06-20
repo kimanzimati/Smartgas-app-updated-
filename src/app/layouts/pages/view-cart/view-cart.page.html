@@ -1,0 +1,61 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title color="dark">view_cart</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-searchbar placeholder="Filter Products" (ionChange)="onSearchChange($event)" [debounce]="250"></ion-searchbar>
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col>Item ID</ion-col>
+      <ion-col>Brand</ion-col>
+      <ion-col>Quantity(kg)</ion-col>
+      <ion-col>Price</ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid>
+      <ion-row>
+        <ion-col>A001</ion-col>
+        <ion-col>K-GAS</ion-col>
+        <ion-col>6</ion-col>
+        <ion-col>1020</ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <ion-grid>
+        <ion-row>
+          <ion-col>A002</ion-col>
+          <ion-col>TOTAL</ion-col>
+          <ion-col>12</ion-col>
+          <ion-col>2200</ion-col>
+        </ion-row>
+      </ion-grid>
+
+      <ion-grid>
+          <ion-row>
+            <ion-col>A003</ion-col>
+            <ion-col>K-GAS</ion-col>
+            <ion-col>3</ion-col>
+            <ion-col>540</ion-col>
+          </ion-row>
+        </ion-grid>
+
+        <ion-grid>
+            <ion-row>
+              <ion-col>PRO001</ion-col>
+              <ion-col>PRO GAS</ion-col>
+              <ion-col>50</ion-col>
+              <ion-col>30000</ion-col>
+            </ion-row>
+          </ion-grid>
+
+          <ion-grid>
+            <ion-item>Total: Ksh 33,760</ion-item>
+          </ion-grid>
+          <ion-button>
+            <ion-label>Checkout</ion-label>
+          </ion-button>
+</ion-content>
+
+

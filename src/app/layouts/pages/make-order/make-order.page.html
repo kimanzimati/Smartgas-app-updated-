@@ -1,0 +1,136 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>make_order</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+    <ion-card>
+
+        <ion-card-header>
+            <ion-card-subtitle>supplier & cylinder size</ion-card-subtitle>
+            <ion-card-title>orders</ion-card-title>
+        </ion-card-header>
+
+        <ion-card-content>
+            <!--select first purchase or refil -->
+            <ion-list>
+                <ion-radio-group>
+                    <ion-list-header>
+                        <ion-label>Order Options</ion-label>
+                    </ion-list-header>
+
+                    <ion-item>
+                        <ion-label>Refill</ion-label>
+                        <ion-radio slot="start" value="Refill" checked></ion-radio>
+                    </ion-item>
+
+                    <ion-item>
+                        <ion-label>New gas</ion-label>
+                        <ion-radio slot="start" value="New gas"></ion-radio>
+                    </ion-item>
+
+                </ion-radio-group>
+            </ion-list>
+
+            <ion-item>
+                <ion-label>Date</ion-label>
+                <ion-datetime display-format="MMM DD, YYYY HH:mm">
+                </ion-datetime>
+            </ion-item>
+
+            <!--supplier table and cylinder size-->
+
+            <ion-item>
+                <ion-label>CYLINDER SIZE</ion-label>
+                <ion-select multiple="true">
+                    <ion-select-option value="3KG" selected>3KG</ion-select-option>
+                    <ion-select-option value="6KG">6KG</ion-select-option>
+                    <ion-select-option value="12KG" selected>12KG</ion-select-option>
+                    <ion-select-option value="22KG"> 22KG</ion-select-option>
+                </ion-select>
+            </ion-item>
+
+            <ion-item>
+                <ion-label>TYPE</ion-label>
+                <ion-select multiple="true">
+                    <ion-select-option value="kgas" selected>kgas</ion-select-option>
+                    <ion-select-option value="total">total</ion-select-option>
+                    <ion-select-option value="Oilibya">Oilibya</ion-select-option>
+                    <ion-select-option value="Hashi">Hashi</ion-select-option>
+                    <ion-select-option value="Oryx">Oryx</ion-select-option>
+                    <ion-select-option value="progas" selected>progas</ion-select-option>
+                    <ion-select-option value="Afrigas"> Afrigas</ion-select-option>
+                </ion-select>
+            </ion-item>
+
+            <div>
+                <ion-button color="secondary">confirm</ion-button>
+            </div>
+
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+
+        <ion-card-header>
+            <ion-card-subtitle>call retailer</ion-card-subtitle>
+            <ion-card-title>contacts</ion-card-title>
+        </ion-card-header>
+
+        <ion-card-content>
+            <ion-item>
+                <ion-label> RETAILER:</ion-label>
+            </ion-item>
+            <ion-icon name="people">
+                <ion-item>
+                    <ion-label> PHONE:</ion-label>
+                </ion-item>
+            </ion-icon>
+        </ion-card-content>
+    </ion-card>
+
+
+
+    <ion-card>
+        <ion-card-header>
+            <ion-icon name="images" isActive="true"></ion-icon>
+            <ion-card-subtitle>CUSTOMER ORDERS </ion-card-subtitle>
+            <ion-card-title>DETAILS</ion-card-title>
+        </ion-card-header>
+
+        <!--customer order details-->
+
+        <ion-card-content>
+            <ion-item>
+                <ion-label> ITEM:</ion-label>
+            </ion-item>
+            <ion-item>
+                <ion-label> RETAILER:</ion-label>
+            </ion-item>
+            <ion-item>
+                <ion-label>PHONE:</ion-label>
+            </ion-item>
+
+            <ion-item>
+                <ion-label>DELIVERY:</ion-label>
+            </ion-item>
+            <ion-item>
+                <ion-label>PRICE:</ion-label>
+            </ion-item>
+            <ion-item>
+                <ion-label>SCHEDULED</ion-label>
+            </ion-item>
+
+            <!--confirm button  -->
+            <div>
+                <ion-button color="secondary">confirm</ion-button>
+            </div>
+        </ion-card-content>
+
+    </ion-card>
+
+
+
+</ion-content>

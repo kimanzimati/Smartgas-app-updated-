@@ -1,0 +1,17 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>OTP</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-item text-wrap>
+        <ion-label position="floating">Enter OTP</ion-label>
+        <ion-input type="number" [(ngModel)]="otp"></ion-input>
+    </ion-item>
+    <ion-button fill="solid" expand="block" color="secondary" (click)="register()">Register</ion-button>
+    <ion-button fill="solid" expand="block" color="secondary" (click)="presentAlert()">View OTP code</ion-button>
+
+</ion-content>
+
+   

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "998392288132",
+    "firebase_url": "https://smartgas-a9c18.firebaseio.com",
+    "project_id": "smartgas-a9c18",
+    "storage_bucket": "smartgas-a9c18.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998392288132:android:d4860349674eac48",
+        "android_client_info": {
+          "package_name": "com.appfactory.smartgas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "998392288132-5k5ggsa0mqb250pq11ilr0vvtb7m7fm4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjON3fniQvf7lRuL1m37uZQDWiye2WiIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "998392288132-5k5ggsa0mqb250pq11ilr0vvtb7m7fm4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
